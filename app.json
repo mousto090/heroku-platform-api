@@ -4,5 +4,10 @@
   "env": {
     "NODE_ENV": "production",
   },
-  "success_url": "/"
+  "buildpacks": [
+    {
+      "url": "mars/create-react-app"
+    }
+  ],
+  "success_url": "/auth"
 }
